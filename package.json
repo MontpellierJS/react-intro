@@ -1,0 +1,33 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "An Introduction to ReactJS, maintained and amended by MontpellierJS Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t [ babelify --presets [ react ] ] ./src/index.js -o ./build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontpellierJS/react-intro.git"
+  },
+  "keywords": [
+    "tutorial",
+    "introduction"
+  ],
+  "author": "MontpellierJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontpellierJS/react-intro/issues"
+  },
+  "homepage": "https://github.com/MontpellierJS/react-intro#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  }
+}
