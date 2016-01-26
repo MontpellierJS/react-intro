@@ -1,9 +1,11 @@
 import React from 'react'
 
+import TodoList from './TodoList'
+
 export default function TodoApp(props) {
   return (
     <div className="todoApp">
-      Todo : Build The App
+      <TodoList data={props.data}/>
     </div>
   )
 }
