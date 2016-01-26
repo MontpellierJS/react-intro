@@ -8,3 +8,4 @@ L'idée est de présenter React au cours d'un afterwork en une vingtaine de minu
 
 * Tutorial officiel React : http://facebook.github.io/react/docs/tutorial.html
 * Quelques exemples d'applications React : https://react.rocks/
+* Tutorial React Redux utilisé pour établir l'application à développer : http://redux.js.org/docs/basics/UsageWithReact.html
