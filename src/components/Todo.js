@@ -1,6 +1,5 @@
 var React = require('react');
 
-
 function Todo(props) {
   return (
     <li style={{ 
