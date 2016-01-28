@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import TodoApp from './components/TodoApp'
+import TodoApp from './containers/TodoApp'
 
 var data = [
   {id: 1, text: "Do The App", completed: 0},
