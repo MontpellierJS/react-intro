@@ -1,14 +1,16 @@
 # React Intro
 
-Une petite introduction à ReactJS
+A little introduction of React JS
 
-L'idée est de présenter React au cours d'un afterwork en une vingtaine de minutes en développant une app de Todo.
+The main idea is to present ReactJS with this project during an after work. The presentation must be around twenty minutes. The goal is to develop a Todo App (yeah is a little bin uncommon, don't you think).
 
-## Références et liens utiles
+It's not written in ES6 but if someone want to migrate, we will be pleased.
 
-* Penser en React : https://facebook.github.io/react/docs/thinking-in-react.html
-* Tutorial officiel React : http://facebook.github.io/react/docs/tutorial.html
-* Quelques exemples d'applications React : https://react.rocks/
-* Tutorial React Redux utilisé pour établir l'application à développer : http://redux.js.org/docs/basics/UsageWithReact.html
-* Les différents paradigmes de détection du changement en javascript : http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html
-* Différences entre les composants intelligents et idiots : https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0 
+## Must Read
+
+* [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [React officiel Tutorial](http://facebook.github.io/react/docs/tutorial.html)
+* [Some really good react application sample](https://react.rocks/)
+* [React and Redux](http://redux.js.org/docs/basics/UsageWithReact.html)
+* [Change and it's detection in javascript frameworks](http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
+* [Smart and dumb components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
