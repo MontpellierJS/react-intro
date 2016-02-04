@@ -6,6 +6,14 @@ The main idea is to present ReactJS with this project during an after work. The 
 
 It's not written in ES6 but if someone want to migrate, we will be pleased.
 
+## Workshop plan
+
+1. Creating our first components
+2. Introduce data with props
+3. Create a stateful component
+4. Introduce Flux with Redux 
+5. And so on...
+
 ## Must Read
 
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
