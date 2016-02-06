@@ -1,11 +1,9 @@
-var React = require('react');
+import React from 'react'
 
-function TodoApp(props) {
+export default function TodoApp(props) {
   return (
     <div className="todoApp">
       Todo : Build The App
     </div>
-  );
+  )
 }
-
-module.exports = TodoApp;
