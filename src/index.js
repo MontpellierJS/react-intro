@@ -7,4 +7,4 @@ var data = [
   {id: 2, text: "Add data", completed: 1},
 ]
 
-render((<TodoApp data={data}/>),document.getElementById('app'))
+render((<TodoApp data={data}/>), document.getElementById('app'))

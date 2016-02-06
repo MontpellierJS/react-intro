@@ -1,6 +1,6 @@
-var React = require('react');
+import React from 'react'
 
-function Todo(props) {
+export default function Todo(props){
   return (
     <li style={{ 
       textDecoration: props.completed ? 'line-through' : 'none',
@@ -8,7 +8,5 @@ function Todo(props) {
     }}>
     {props.text}
     </li>
-  );
+  )
 }
-
-module.exports = Todo;

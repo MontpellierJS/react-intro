@@ -1,18 +1,15 @@
-var React = require('react');
+import React from 'react'
 
-var Todo = require('./Todo.js');
+import Todo from './Todo'
 
-function TodoList(props) {
-  var data = props.data;
+export default function TodoList(props) {
   return (
     <div className="TodoList">
       <ul>
-        {data.map(function(todo) {
+        {props.data.map(function(todo) {
           return <Todo key={todo.id} completed={todo.completed} text={todo.text} />
         })}
       </ul>
     </div>
-  );
+  )
 }
-
-module.exports = TodoList;
