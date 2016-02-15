@@ -6,7 +6,7 @@ export default function TodoList(props) {
   return (
     <div className="TodoList">
       <ul>
-        {props.data.map(function(todo) {
+        {props.todos.map(function(todo) {
           return <Todo key={todo.id} completed={todo.completed} text={todo.text} />
         })}
       </ul>
